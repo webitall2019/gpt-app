@@ -11,4 +11,10 @@
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+  --input-bg:#052D56;
+  
 }
+ button, input[type=email]{
+    border: none;
+    outline: none;
+ }
