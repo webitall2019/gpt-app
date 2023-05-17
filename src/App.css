@@ -8,13 +8,13 @@
 body {
   background: var(--color-bg);
   font-family: var(--font-family);
- 
+ color: var(--color-default);
 }
 a {
     color: unset;
     text-decoration: none;
 }
-ul{
+ul, li{
     list-style: none;
 }
 .gradient__bg{

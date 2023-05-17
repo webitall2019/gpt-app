@@ -1,0 +1,132 @@
+.gpt__whatgpt-container{
+    position: relative;
+     background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 50;
+    overflow: hidden;
+}
+
+.gpt__whatgpt-headline {
+    margin-bottom: 2rem;
+}
+.gpt__whatgpt4 p {
+    color: var(--color-text);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    flex: 1 0 50%;
+}
+.gpt__whatgpt4 h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 65px;
+    font-weight: 800;
+    flex: 1 0 50%;
+}
+.gpt__whatgpt4  h3::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    max-width: 38px;
+    height: 2px;
+    background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+        #ffffff;
+}
+
+.gpt__whatgpt-headline h3 {
+    flex: 1 0 50%;
+    position: relative;
+}
+.gpt__whatgpt-middle {
+    margin-bottom: 70px;
+}
+
+.gpt__whatgpt-middle h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 2rem;
+}
+.gpt__whatgpt-middle br {
+    display: none;
+}
+.gpt__whatgpt-middle p {
+    color: #ff8a71;
+}
+
+@media screen and (min-width: 768px) {
+
+    .gpt__whatgpt-headline h2::before, .gpt__whatgpt-bottom__list li::before  {
+        height: 3px;
+    }
+    .gpt__whatgpt-headline {
+        display: flex;
+        margin-bottom: 6rem;
+    }
+    .gpt__whatgpt-headline h3 {
+        flex: 1 0 20%;
+    }
+    .gpt__whatgpt p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .gpt__whatgpt-middle {
+        display: flex;
+        align-items: center;
+        margin-bottom: 97px;
+    }
+    .gpt__whatgpt-middle p {
+        flex: 1 0 20%;
+        justify-self: end;
+    }
+    .gpt__whatgpt-middle h2 {
+        flex: 1 0 80%;
+        font-size: 34px;
+        line-height: 45px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .gpt__whatgpt-headline h3 {
+        font-size: 24px;
+        line-height: 75px;
+    }
+     .gpt__whatgpt-middle br {
+        display: block;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .gpt__whatgpt-container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    .gpt__whatgpt-middle h2 {
+        background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 50.55%),
+            #ffffff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+   
+}

@@ -12,9 +12,13 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --input-bg:#052D56;
+  --color-default:#fff;
   
 }
  button, input[type=email]{
     border: none;
     outline: none;
+ }
+ button:hover, input:hover{
+  cursor: pointer;
  }
