@@ -31,15 +31,6 @@
 .features .feature-list__item p {
     line-height: 24px;
 }
-.features button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: var(--color-subtext);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-}
 
 .features .features-heading {
     margin-bottom: 40px;

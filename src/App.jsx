@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+
 import "./App.css";
 import {
     Header,
@@ -38,6 +39,7 @@ const App = () => {
             <Brand />
             <WhatGPT />
             <Features features={features} />
+            <Possibility />
         </div>
     );
 };

@@ -1,0 +1,48 @@
+.possibility__container{
+
+}
+.possibility__content .pre-title{
+    font-weight: 500;
+    color: #71E5FF;
+    line-height: 30px;
+}
+.possibility__image {
+    max-width: 550px;
+    object-fit: cover;
+    flex: 1;
+}
+.possibility__content{
+    margin-top: 20px;
+}
+.possibility__image img{
+    max-width: 100%;
+}
+.possibility__content h2{
+    margin: 10px 0 25px 0;
+}
+.possibility__content p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width:768px) {
+    .possibility__container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    
+    .possibility__image, .possibility__content{
+        flex: 1;
+        margin-top: 0;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    .possibility__content p{
+         line-height: 40px;
+    }
+    .possibility__content{
+        flex: 0 0 37%;
+    }
+}

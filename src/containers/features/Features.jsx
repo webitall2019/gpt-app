@@ -10,7 +10,7 @@ export default function Features({ ...features }) {
                     The Future is Now and You Just Need To Realize It. Step into
                     Future Today & Make it Happen.
                 </h2>
-                <button type="button">
+                <button type="button" className="request__button">
                     Request Early Access to Get Started
                 </button>
             </div>
