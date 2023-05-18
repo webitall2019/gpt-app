@@ -1,7 +1,8 @@
-.features {
+.gpt__features {
     position: relative;
+    overflow: hidden;
 }
-.features:before {
+.gpt__features:before {
     content: "";
     position: absolute;
     width: 600px;
@@ -12,34 +13,34 @@
     top: 0;
     z-index: -1;
 }
-.features h3 {
+.gpt__features h3 {
     color: var(--color-default);
 }
-.features .features-list {
+.gpt__features .gpt__features-list {
     display: flex;
     flex-direction: column;
 }
 .feature-list__item h3 {
     line-height: 40px;
 }
-.features h2 {
+.gpt__features h2 {
     margin-bottom: 35px;
 }
-.features .feature-list__item p {
+.gpt__features .feature-list__item p {
     font-size: 14px;
 }
-.features .feature-list__item p {
+.gpt__features .feature-list__item p {
     line-height: 24px;
 }
 
-.features .features-heading {
+.gpt__features .gpt__features-heading {
     margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
-    .features {
+    .gpt__features {
         padding-top: 200px;
     }
-    .features-list {
+    .gpt__features-list {
         display: flex;
         flex: 1;
         gap: 0 20px;
@@ -51,21 +52,21 @@
     .feature-list__item:last-child {
         margin: 0;
     }
-    .features .feature-list__item h3 {
+    .gpt__features .feature-list__item h3 {
         flex: 1 0 40%;
         column-gap: 40px;
     }
 }
 @media screen and (min-width: 1024px) {
-    .features {
+    .gpt__features {
         display: flex;
         column-gap: 30px;
     }
 
-    .features .features-heading {
+    .gpt__features .gpt__features-heading {
         flex: 1;
     }
-    .features .feature-list__item {
+    .gpt__features .feature-list__item {
         column-gap: 20px;
     }
 }

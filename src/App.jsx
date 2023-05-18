@@ -1,6 +1,5 @@
-import React, { useRef } from "react";
-
-import "./App.css";
+import React from "react";
+import "./app.css";
 import {
     Header,
     Footer,
@@ -11,7 +10,7 @@ import {
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 
-const App = () => {
+export default function App() {
     let features = [
         {
             title: "Improving end distrusts instantly ",
@@ -32,7 +31,7 @@ const App = () => {
     ];
     return (
         <div className="App">
-            <div className="gradient__bg">
+            <div className="gradient-bg">
                 <Navbar />
                 <Header />
             </div>
@@ -40,8 +39,7 @@ const App = () => {
             <WhatGPT />
             <Features features={features} />
             <Possibility />
+            <CTA />
         </div>
     );
-};
-
-export default App;
+}

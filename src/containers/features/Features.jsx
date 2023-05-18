@@ -4,8 +4,8 @@ import Feature from "../../components/feature/Feature";
 
 export default function Features({ ...features }) {
     return (
-        <div className="features section__padding" id="features">
-            <div className="features-heading">
+        <div className="gpt__features section__padding" id="features">
+            <div className="gpt__features-heading">
                 <h2 className="gradient__text">
                     The Future is Now and You Just Need To Realize It. Step into
                     Future Today & Make it Happen.
@@ -15,7 +15,7 @@ export default function Features({ ...features }) {
                 </button>
             </div>
 
-            <ul className="features-list">
+            <ul className="gpt__features-list">
                 {features.features
                     ? features.features.map((feature, index) => {
                           return (
@@ -26,7 +26,7 @@ export default function Features({ ...features }) {
                               />
                           );
                       })
-                    : "no features"}
+                    : "no features yet"}
             </ul>
         </div>
     );
