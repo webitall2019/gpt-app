@@ -1,8 +1,11 @@
-.gpt__cta{
-   
+.gpt__cta {
+    margin: 1rem;
+    text-align: center;
 }
 .gpt__cta-container {
     padding: 16px;
+    border: 1px solid var(--color-black);
+    border-radius: 11px;
 }
 .gpt__cta .pre-title {
     color: #0e0e0e;
@@ -13,6 +16,7 @@
     display: inline-block;
     font-size: 20px;
     line-height: 25px;
+    font-weight: 800;
     color: var(--color-black);
     margin: 10px 0;
 }
@@ -31,8 +35,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .gpt__cta{
-        
+    .gpt__cta {
+        margin: 2rem;
+        text-align: left;
     }
     .gpt__cta-headline {
         display: flex;
@@ -51,5 +56,12 @@
 @media screen and (min-width: 1280px) {
     .gpt__cta-button {
         padding: 13px 40px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .gpt__cta-container{
+        max-width: 1920px;
+        margin: 0 auto;
     }
 }

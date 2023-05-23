@@ -40,6 +40,7 @@ export default function App() {
             <Features features={features} />
             <Possibility />
             <CTA />
+            <Blog />
         </div>
     );
 }

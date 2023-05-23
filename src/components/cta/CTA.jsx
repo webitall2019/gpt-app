@@ -3,7 +3,7 @@ import "./cta.css";
 
 export default function CTA() {
     return (
-        <div className="gpt__cta section__padding">
+        <div className="gpt__cta">
             <div className="gpt__cta-container gradient-bar">
                 <p className="pre-title">Request Early Access to Get Started</p>
                 <div className="gpt__cta-headline">

@@ -1,0 +1,60 @@
+.gpt__article {
+    text-align: center;
+}
+.gpt__article-content {
+    background: var(--color-blog);
+    padding: 15px;
+    width: 100%;
+}
+.gpt__article-img{
+    width: 100%;
+}
+.gpt__article-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gpt__article-main .gpt__article .gpt__article-content {
+    padding: 15px;
+}
+.gpt__article-date {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 700;
+     margin-bottom: 3px;
+}
+.gpt__article-content h3{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .gpt__article {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gpt__article-main .gpt__article .gpt__article-content {
+        padding: 30px;
+    }
+    .gpt__article-secondary .gpt__article-img {
+        height: 180px;
+    }
+     .gpt__article-secondary .gpt__article-content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-height: 260px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .gpt__article-date {
+        font-size: 12px;
+        line-height: 35px;
+        margin-bottom: 5px;
+    }
+    .gpt__article-img {
+        height: 250px;
+    }
+}
